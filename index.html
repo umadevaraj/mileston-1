@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <title>CAFE WESTOE</title>    
+</head>
+<body>
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="assets/images/logo.jpg" alt="logo of CAFE WESTOE"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>                    
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a class="active" href="gallery.html">GALLERY</a></li>
+                    <li><a class="active" href="#about" aria-label="Jump to the About section">ABOUT</a></li>
+                    <li><a class="active" href="#contact" aria-label="Jump to the Contact section">CONTACT</a></li>
+                    <li><a class="active" href="login.html">LOG IN</a></li>
+                    
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Sri Lankan Restaurant</h1>
+            <p>Welcome to our traditional Sri Lankan Restaurant</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+   
+    <section class="course">
+        <h1>Our Menu</h1>
+        <p>Come and Enjoy our various range of food collection. Spicy and non-spicy according to your choice of taste. </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Breakfast</h3>
+                <p>English and Sri Lankan</p>
+                <p>Large Breakfast</p>
+                <p>Small Breakfast</p>
+                <p>Eggs on Toast</p>
+                <p>Sri Lankan Eggs</p>
+                <p>Avocado on Sourdough</p>
+                <p>Porridge</p>
+                <p>Omelette</p>
+            </div>
+            <div class="course-col">
+                <h3>Lunch</h3>
+                <p>English and Sri Lankan</p>
+                <p>Soup and a Sandwich</p>
+                <p>Cheesy Paratha Wrap</p>
+                <p>Spicy Devilled Sausages</p>
+                <p>Daily Specials</p>
+            </div>
+            <div class="course-col">
+                <h3>Drinks</h3>
+                <p>English and Sri Lankan</p>
+                <p>Latte</p>
+                <p>Cappuccino</p>
+                <p>Americano</p>
+                <p>Flat White</p>
+                <p>Hot Chocolate</p>
+                <p>Tea</p>
+                <p>Speciality Teas</p>
+                <p>Ceylon Tea</p>
+                <p>Milkshakes</p>
+                <p>cans</p>
+                <p>Fruitshoot</p>
+                <p>Water</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer class="container-fluid"> 
+            <div id="about">
+                <h1>About</h1>           
+            <div class="row">   
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About Us</h5>
+                    <p class="inline-block">
+                        Cafe Westoe is traditional Sri Lankan restaurant launched on 1995.
+                    </p>
+                    <form>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fname" id="fname"><br>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" id="lname"><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                        <input type="submit">
+                    </form>                    
+                </div>                
+                <div>
+                    <h5 class="uppercase general-sub">Stay Connected</h5>
+                    <p class="inline-block">
+                        Would like to know more about us? Download it here.
+                        <a href="#" target="_blank">
+                            <i class="fa-stay connected" aria-hidden="true"></i>
+                            <span class="sr-only">Download link.</span>
+                        </a>
+                    </p>
+                    <form method="post" action="http://drupy.cafewestoe.com">
+                        <label for="feedback">Feedback</label>
+                        <br>
+                        <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Feedback"></textarea>
+                        <br>
+                        <input type="submit">
+                    </form>
+                </div>                 
+            </div>           
+            </div>            
+        </footer>        
+    </section>
+    <footer>
+        <div id="contact">
+            <h1>Contact</h1>            
+        <table>  
+
+            <tr>                
+                <th>Opening time</th>
+                <th>Open</th>
+                <th>Close</th>	
+            </tr>
+
+            <tr>
+                <td>Mon - Fri</td>
+                <td>09:00</td>
+                <td>15:00</td>
+            </tr>
+
+            <tr>
+                <td>Sat</td>
+                <td>10:00</td>
+                <td>15:00</td>
+            </tr>
+
+            <tr>
+                <td>Sun</td>
+                <td>Opening Soon</td>                
+            </tr>	
+
+        </table>
+    
+        <h3>Get in touch</h3>
+    
+        <div>
+          <span style="font-weight: bold;">Phone: </span>
+          <span>07763 398963</span>
+        </div>
+        <div>
+          <span style="font-weight: bold;">Email: </span>
+          <span>drupy@gmail.com</span>
+        </div>
+    
+    
+            <h3>Address</h3>
+            <p>Cafe Westoe,<br>42-44 Dean Rd,<br>South Shields <br>NE33 4DZ</p>
+        </div>
+        </div>
+    </footer>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.223916555987!2d-1.427014423863324!3d54.9867079728103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e6fae27f7a03d%3A0xa3927abda0c1c7fe!2sCafe%20Westoe!5e0!3m2!1sen!2suk!4v1714737802084!5m2!1sen!2suk" width="100%" height="300"></iframe>
+
+    <footer>
+        
+      <span>Find us on:</span> 
+
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>    
+        
+        <p>Copyright © Cafe Westoe 2023</p>
+        
+    </footer>
+   
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
+
