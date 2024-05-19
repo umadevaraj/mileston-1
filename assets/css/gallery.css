@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+
+body {
+    font-family: Lato;
+    color: #888888;
+    
+}
+
+h2 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #444444;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;    
+}
+
+#logo, #menu {
+    line-height: 75px;    
+}
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #333333;
+}
+
+.active {
+    border-bottom: 1px solid #333333;
+}
 h1 {
     text-align: center;
     color: rgb(239, 13, 13);
@@ -41,4 +93,22 @@ p {
     .container img {
         width: 25%;
     }
+}
+
+#audio {
+    clear: both;
+    margin: 0;
+    padding: 100px;
+    background-color: #44e8fa;
+    background-position: center;  
+    
+}
+
+#video {
+    clear: both;
+    margin: 0;
+    padding: 100px;
+    background-color: #44faa2;
+    background-position: center;  
+
 }
