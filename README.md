@@ -71,52 +71,58 @@
 
 ## Design
 
-Font and Color Used
+- ### Font and Color Used
 
-- Used different fonts and used many colors are green, orange and aqua blue ...
+    - Used different fonts and used many colors are green, orange and aqua blue ...
 
-Imagery, Video and Audio
+- ### Imagery, Video and Audio
 
-- My own photography pictures, video and music used in this project to give and understand to how use own images.
+    - My own photography pictures, video and music used in this project to give and understand to how use own images.
 
-Wireframes
+- ### Wireframes
 
-- Home Page
+    - Home Page
 
-- Gallery Page
+    - Gallery Page
 
-- Wireframes Page
+    - Wireframes Page
 
-- Log In Page
+    - Log In Page
 
 
-## Features
+- ### Features
 
-- Created all responsive for deferent device sizes.
+    - Created all responsive for deferent device sizes.
 
-- Created interactive elements in the project
+    - Created interactive elements in the project    
 
 # Technologies Used 
 
-## Language Used
+- ### Language Used
 
-- HTML
-- CSS
+    - HTML
 
-## Frameworks, Libraries & Programs Used
+    - CSS
 
-1. Git
-2. GitHub
-3. VS Code
-4. Google Fonts
-5. Font Awesome
+- ### Frameworks, Libraries & Programs Used
+
+    1. Git
+
+    2. GitHub
+
+    3. VS Code
+
+    4. Google Fonts
+    
+    5. Font Awesome
 
 # Testing, Finding Errors and fixing the Bugs
 
 To test the project W3C Markup Validator and W3C CSS Validator Services were used to validate the pages to ensure there were no syntax errors in the project.
 
-- W3C Markup Validator
-- W3C CSS Validator 
+    - W3C Markup Validator
+
+    - W3C CSS Validator 
 
 # Deployment 
 
@@ -130,22 +136,22 @@ To test the project W3C Markup Validator and W3C CSS Validator Services were use
 
 # Credits
 
-## Code 
+- ### Code 
 
-- Regularly Re-visited Code Institute and watched videos to understand more. 
+    - Regularly Re-visited Code Institute and watched videos to understand more. 
 
-## Content 
+- ### Content 
 
-- All content was written by the developer
+    - All content was written by the developer
 
+- ### Media
 
-## Media
+    - All Images were created by the developer
 
-- All Images were created by the developer
+- ### Acknowledgements
 
-## Acknowledgements
-- My Mentor for continuous helpful support and feedback.
+    - My Mentor for continuous helpful support and feedback.
 
-- Tutor support at Newcastle College and Code Institute for their support.
+    - Tutor support at Newcastle College and Code Institute for their support.
 
-- Slack channel advices and peers advices and class team members advice in team is very helpful to keep in track.
+    - Slack channel advices and peers advices and class team members advice in team is very helpful to keep in track.
